@@ -1,0 +1,12 @@
+a=[]
+n=int(input("how many words you want to enter: "))
+for i in range(n):
+    word_1=input("Enter the word: ")
+    a.append(word_1)
+for words in a:
+    if len(words) >= 10:
+        middle_word = words[1:-1]
+        print(words[0] + str(len(middle_word)) + words[-1])
+
+    else:
+        print(words)
