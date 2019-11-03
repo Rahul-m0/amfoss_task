@@ -1,0 +1,14 @@
+n=int(input("enter the no of contestants: "))
+k=int(input("Enter the score used to check: "))
+print(n,k)
+a=[]
+print("Enter the score of the participants: ")
+for i in range(n):
+    element=int(input())
+    a.append(element)
+print(a)
+count=0
+for elements in a:
+    if  elements > k:
+        count+=1
+print("The no of participants advanced for the next round = "+str(count))
