@@ -1,0 +1,6 @@
+x=int(input("Enter the value of X: "))
+operation=input("Enter the operation to be used (++X or --X): ")
+if operation=="++X":
+    print(x+1)
+elif operation=="--X":
+    print(x-1)
